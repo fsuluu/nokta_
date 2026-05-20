@@ -22,3 +22,7 @@ Kart başlıkları ve açıklamaları daha net görünmelidir.
 - Kart iç boşlukları düzenlenebilir
 - Metin kontrastı iyileştirilebilir
 - Kartlar arasında daha fazla boşluk bırakılabilir
+
+## Burn-in Screenshot
+
+![Idea List Screen](./screenshots/idea-list-screen.png)

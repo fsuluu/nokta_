@@ -22,3 +22,7 @@ Geri dönüş bağlantısı daha görünür olmalıdır.
 - Renk kontrastı yükseltilebilir
 - İkon eklenebilir
 - Konum yeniden düzenlenebilir
+
+## Burn-in Screenshot
+
+![Idea Detail Screen](./screenshots/idea-detail-screen.png)

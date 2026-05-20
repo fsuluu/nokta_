@@ -22,3 +22,7 @@ Buton daha belirgin görünmeli ve onboarding ekranındaki ana aksiyon olduğu d
 - Kontrast güçlendirilebilir
 - Metin boyutu büyütülebilir
 - Üst boşluk yeniden düzenlenebilir
+
+## Burn-in Screenshot
+
+![Onboarding Screen](./screenshots/home-screen.png)
