@@ -45,3 +45,9 @@ Expo linki: Eklenecek
 
 - ChatGPT: Proje yapısı, README, FORGE ve audit raporu şablonları için kullanıldı.
 - Coding Agent: Audit raporlarına göre düzeltme döngülerinde kullanılacaktır.
+
+## Audit Widget Integration Note
+
+AuditWidget, host uygulama kök bileşeninde tek noktadan mount edilmiştir. Widget entegrasyonu `App.tsx` içinde yalnızca `<AuditWidget deps={deps} />` satırıyla yapılmıştır. Paket sürümünde `currentScreen` prop’u TypeScript tarafından desteklenmediği için aktif ekran bilgisi uygulama state’i üzerinden yönetilmiş, widget host uygulamaya yayılmadan izole tutulmuştur.
+
+Widget kaldırıldığında uygulama ekranları ve navigasyon çalışmaya devam eder.
